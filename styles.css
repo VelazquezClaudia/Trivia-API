@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fae1bd;
+  font-family: 'Inter',san-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.trivia-card {
+  background-color:  #E2E7B9;
+  border-radius: 10px;
+  box-shadow: 0 0 18px 3px #E9A367;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  padding-top: 2%;
+  font-family: inherit;
+  color: #2e1b02;
+}
+
+article {
+  position: relative;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 25%;
+  transform: translateY(-25%);
+  text-align: center;
+  font-size: 2rem;
+  font-family: inherit;
+  color: #3CA1D5;
+}
+
+#submit {
+  background-color: antiquewhite;
+  color: #39B1A1;
+  border: none;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1.1rem;
+  border-radius: 10px;
+  border-style: double;
+  border-color: #DD4854;
+}
+
+button {
+  background-color: antiquewhite;
+  color: #39B1A1;
+  border: none;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1.1rem;
+  border-radius: 10px;
+  border-style: double;
+  border-color: #DD4854;
+}
